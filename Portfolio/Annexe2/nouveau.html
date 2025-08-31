@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Tarek Akermi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <header class="bg-white shadow p-6 text-center">
+    <img src="assets/img/tof.jpeg" alt="Photo de Tarek" class="mx-auto rounded-full shadow-md w-28 h-28 object-cover">
+    <h1 class="text-3xl font-bold mt-4">Tarek Akermi</h1>
+    <p class="text-lg text-gray-600">Technicien en informatique | Réseaux & Sécurité</p>
+    <div class="flex justify-center gap-4 mt-4">
+      <a href="https://github.com/" target="_blank" class="px-4 py-2 bg-gray-800 text-white rounded-lg shadow">GitHub</a>
+      <a href="https://www.linkedin.com/in/tarek-akermi-882236233/" target="_blank" class="px-4 py-2 bg-blue-700 text-white rounded-lg shadow">LinkedIn</a>
+      <a href="mailto:akermit428@gmail.com" class="px-4 py-2 bg-green-600 text-white rounded-lg shadow">Contact</a>
+    </div>
+  </header>
+
+  <section class="max-w-5xl mx-auto p-6">
+    <h2 class="text-2xl font-bold mb-6">💻 Projets</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+
+      <div class="bg-white rounded-2xl shadow p-4">
+        <h3 class="text-xl font-semibold mb-2">Projet 1 : Infrastructure Réseau Complète</h3>
+        <p class="text-gray-600">Conception et déploiement d'une infrastructure réseau d'entreprise avec :<br>
+- pfSense avec segmentation par département (3 VLANs)<br>
+- Active Directory avec DHCP et DNS primaire<br>
+- DNS secondaire BIND9 sur Linux<br>
+- Systèmes RAID (RAID-5 et RAID-1)<br>
+- Serveur web NGINX en DMZ avec SSL<br>
+- Système de sauvegarde centralisé (Duplicati)<br>
+- Services NTP et Syslog centralisés<br>
+- Règles de pare-feu avancées et isolation des zones</p>
+        <div class="flex flex-wrap gap-2 my-3">
+          <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">pfSense</span>
+          <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Active Directory</span>
+          <span class="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">NGINX</span>
+          <span class="bg-red-100 text-red-800 px-2 py-1 rounded text-xs">RAID</span>
+          <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">DNS/DHCP</span>
+        </div>
+        <div class="mt-4 flex gap-3">
+          <a href="projets/infrastructure-reseau.html" class="px-3 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition">Voir le projet</a>
+          <a href="#" class="px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Code GitHub</a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-4">
+        <h3 class="text-xl font-semibold mb-2">Projet 2 : Déploiement Exchange 2019</h3>
+        <p class="text-gray-600">Déploiement et configuration d'un serveur Exchange 2019 pour la gestion des services de messagerie, de collaboration et de calendriers. Le projet met l'accent sur la création de requêtes SQL pour la gestion des bases de données et l'administration des comptes utilisateur.</p>
+        <div class="flex flex-wrap gap-2 my-3">
+          <span class="bg-teal-100 text-teal-800 px-2 py-1 rounded text-xs">Exchange Server 2019</span>
+          <span class="bg-indigo-100 text-indigo-800 px-2 py-1 rounded text-xs">SQL Server 2019</span>
+          <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Windows Server</span>
+          <span class="bg-red-100 text-red-800 px-2 py-1 rounded text-xs">Active Directory</span>
+        </div>
+        <div class="mt-4 flex gap-3">
+          <a href="projets/deploiement-exchange-2019.html" class="px-3 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition">Voir le projet</a>
+          <a href="#" class="px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Code GitHub</a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-4">
+        <h3 class="text-xl font-semibold mb-2">Projet 3 : Administration de Windows</h3>
+        <p class="text-gray-600">Ce projet se concentre sur les compétences avancées en administration de serveurs Windows, incluant la configuration de stratégies de groupe (GPO), l'installation de rôles DNS et DHCP, et la gestion de machines virtuelles avec Hyper-V.</p>
+        <div class="flex flex-wrap gap-2 my-3">
+          <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">Windows Server</span>
+          <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">PowerShell</span>
+          <span class="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">GPO</span>
+          <span class="bg-red-100 text-red-800 px-2 py-1 rounded text-xs">DNS/DHCP</span>
+          <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs">Hyper-V</span>
+        </div>
+        <div class="mt-4 flex gap-3">
+          <a href="projets/administration-de-windows.html" class="px-3 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition">Voir le projet</a>
+          <a href="#" class="px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Code GitHub</a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-4">
+        <h3 class="text-xl font-semibold mb-2">Projet 4 : LAB GLPI</h3>
+        <p class="text-gray-600">Installation et configuration d'un système de billetterie GLPI pour la gestion des incidents et des demandes de service. Le projet inclut la mise en place de la structure de l'entreprise, des utilisateurs et des ressources informatiques pour un support technique centralisé.</p>
+        <div class="flex flex-wrap gap-2 my-3">
+          <span class="bg-pink-100 text-pink-800 px-2 py-1 rounded text-xs">GLPI</span>
+          <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Système de billetterie</span>
+          <span class="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">Ticketing System</span>
+          <span class="bg-red-100 text-red-800 px-2 py-1 rounded text-xs">Inventaire Informatique</span>
+        </div>
+        <div class="mt-4 flex gap-3">
+          <a href="projets/lab-glpi.html" class="px-3 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition">Voir le projet</a>
+          <a href="#" class="px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Code GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  ---
+
+  <section class="bg-gray-100 p-6">
+    <h2 class="text-2xl font-bold mb-6">📌 Expériences & Stages</h2>
+    <ul class="space-y-4">
+      <li class="bg-white shadow rounded-lg p-4">
+        <h3 class="font-semibold">Stage – Bureau en Gros</h3>
+        <p class="text-gray-600 mt-1">Installation, configuration et support technique de matériel et logiciels informatiques pour les clients.</p>
+      </li>
+
+      <li class="bg-white shadow rounded-lg p-4">
+        <h3 class="font-semibold">Stage chez Vidéotron (Bureautique & support technique)</h3>
+        <ul class="text-gray-600 mt-1 list-disc list-inside space-y-1">
+          <li>Fournir le support technique à distance.</li>
+          <li>Prise d’appels, traitement et résolution des billets de services.</li>
+          <li>Diagnostiquer, documenter et résoudre les incidents dans les délais convenus.</li>
+          <li>Utiliser un système de billetterie pour prioriser et gérer les demandes.</li>
+          <li>Communiquer efficacement avec les utilisateurs et proposer des solutions adaptées.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet Déploiement Exchange - Tarek Akermi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <nav class="bg-white shadow-md p-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <a href="../index.html" class="text-xl font-bold text-teal-600">← Retour au Portfolio</a>
+      <h1 class="text-2xl font-bold">Projet Déploiement Exchange</h1>
+    </div>
+  </nav>
+
+  <header class="bg-gradient-to-r from-teal-600 to-green-600 text-white p-8">
+    <div class="max-w-6xl mx-auto">
+      <h1 class="text-4xl font-bold mb-4">Déploiement Exchange 2019 & SQL Server</h1>
+      <p class="text-xl mb-4">Projet Intégration de services réseaux</p>
+      <div class="grid md:grid-cols-2 gap-6 mt-6">
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Équipe</h3>
+          <ul class="space-y-1">
+            <li>TAREK Akermi</li>
+            <li>Cherif Idri</li>
+            <li>Nour Elyaqine Kchirid</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Technologies utilisées</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-white bg-opacity-20 px-3 py-1 rounded-full text-sm">Windows Server</span>
+            <span class="bg-white bg-opacity-20 px-3 py-1 rounded-full text-sm">Active Directory</span>
+            <span class="bg-white bg-opacity-20 px-3 py-1 rounded-full text-sm">Exchange 2019</span>
+            <span class="bg-white bg-opacity-20 px-3 py-1 rounded-full text-sm">SQL Server 2019</span>
+            <span class="bg-white bg-opacity-20 px-3 py-1 rounded-full text-sm">SSMS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto p-6">
+
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4 text-teal-600">Vue d'ensemble du projet</h2>
+      <p class="text-lg mb-4">
+        Ce projet a consisté en l'installation et la configuration de Microsoft SQL Server 2019 et Exchange Server 2019 sur un environnement virtualisé. J'ai également conçu et implémenté une base de données avec des tables, des vues et des droits d'accès spécifiques pour différents groupes d'utilisateurs.
+      </p>
+    </section>
+    
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4 text-teal-600">Captures d'écran du projet</h2>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="text-center">
+          <h3 class="font-semibold mb-3">Installation de SQL Server</h3>
+          <img src="[Insérer ici le chemin de votre image]" alt="Installation de SQL Server" class="w-full rounded shadow">
+          <p class="text-sm text-gray-600 mt-2">Étape 1 de l'installation de SQL Server.</p>
+        </div>
+        
+        <div class="text-center">
+          <h3 class="font-semibold mb-3">Configuration de l'instance</h3>
+          <img src="[Insérer ici le chemin de votre image]" alt="Configuration de l'instance SQL Server" class="w-full rounded shadow">
+          <p class="text-sm text-gray-600 mt-2">Paramètres de l'instance et mode d'authentification.</p>
+        </div>
+
+        <div class="text-center">
+          <h3 class="font-semibold mb-3">Création des tables et de la base de données</h3>
+          <img src="[Insérer ici le chemin de votre image]" alt="Création de la base de données maBase et des tables DEPT et EMP" class="w-full rounded shadow">
+          <p class="text-sm text-gray-600 mt-2">Capture d'écran montrant les requêtes LDD.</p>
+        </div>
+
+        <div class="text-center">
+          <h3 class="font-semibold mb-3">Requêtes SQL et vues</h3>
+          <img src="[Insérer ici le chemin de votre image]" alt="Requêtes SQL pour l'insertion de données et la création de vues" class="w-full rounded shadow">
+          <p class="text-sm text-gray-600 mt-2">Exemple de la vue `VueEmp`.</p>
+        </div>
+
+        <div class="text-center">
+          <h3 class="font-semibold mb-3">Droits d'accès</h3>
+          <img src="[Insérer ici le chemin de votre image]" alt="Configuration des droits d'accès pour les groupes" class="w-full rounded shadow">
+          <p class="text-sm text-gray-600 mt-2">Configuration des permissions pour les groupes `Managers` et `Compta`.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4 text-teal-600">Réalisations principales</h2>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="border border-gray-200 rounded-lg p-4">
+          <h3 class="text-lg font-semibold mb-3 text-green-600">Installation de SQL Server</h3>
+          <ul class="text-sm space-y-1 text-gray-700">
+            <li>• Installation d'une nouvelle instance de SQL Server 2019, nommée 'tp1'.</li>
+            <li>• Utilisation du mode d'authentification Windows seulement et ajout du compte Active Directory 'db_administrator'.</li>
+          </ul>
+        </div>
+        
+        <div class="border border-gray-200 rounded-lg p-4">
+          <h3 class="text-lg font-semibold mb-3 text-indigo-600">Requêtes et Bases de données</h3>
+          <ul class="text-sm space-y-1 text-gray-700">
+            <li>• Création d'une nouvelle base de données nommée 'maBase'.</li>
+            <li>• Création des tables DEPT et EMP avec des clés primaires et étrangères.</li>
+            <li>• Insertion des enregistrements de données pour chaque table.</li>
+          </ul>
+        </div>
+
+        <div class="border border-gray-200 rounded-lg p-4">
+          <h3 class="text-lg font-semibold mb-3 text-red-600">Configuration des droits d'accès</h3>
+          <ul class="text-sm space-y-1 text-gray-700">
+            <li>• Configuration de l'instance pour se connecter par défaut à 'maBase'.</li>
+            <li>• Autorisation du groupe 'Managers' à modifier le contenu des tables, sans droit LDD.</li>
+            <li>• Autorisation du groupe 'Compta' à lire la vue 'VueEmp'.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4 text-teal-600">Défis rencontrés et solutions</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="space-y-4">
+          <div class="border-l-4 border-yellow-500 pl-4">
+            <h3 class="font-semibold text-yellow-700">Gestion des privilèges</h3>
+            <p class="text-sm text-gray-700">Définir des droits d'accès précis pour chaque groupe d'utilisateurs sur la base de données, en évitant de donner des privilèges excessifs.</p>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <div class="border-l-4 border-blue-500 pl-4">
+            <h3 class="font-semibold text-blue-700">Intégration Active Directory</h3>
+            <p class="text-sm text-gray-700">S'assurer que l'instance SQL Server reconnaisse correctement les groupes et les utilisateurs de l'Active Directory pour l'authentification et les autorisations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-gray-800 text-white p-6 text-center">
+    <p>&copy; 2025 Tarek Akermi - Projet Déploiement Exchange</p>
+    <a href="../index.html" class="text-blue-400 hover:text-blue-300 mt-2 inline-block">← Retour au portfolio</a>
+  </footer>
+
+</body>
+</html>
